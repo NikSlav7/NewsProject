@@ -1,0 +1,41 @@
+.header-container{
+    width: 100vw;
+    height: 60px;
+    background-color: #A59D84;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-container{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    color: white;
+    font-size: 18px;
+}
+.links-container{
+    width: 27%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.link{
+    color: white;
+    font-size: 14px;
+}
+.search-container{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.name-field{
+    
+    display: flex;
+    height: 45%;
+    background-color: #BBB9A2;
+    border-radius: 6px;
+}
