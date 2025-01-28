@@ -3,15 +3,25 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    background-color: aqua;
 }
 .small-news-picture-container{
     height: 90%; 
-    background-color: gray;  
+    background-color:  rgb(218, 218, 218);
+    border-radius: 4px;  
+}
+.small-news-picture{
+    width: 100%;
+    height: 100%;
 }
 .small-news-title{
     margin: 0;
+    font-size: 1.15em;
+    margin-top: 8px;
+    font-weight: 600
 }
+
 .small-news-subtitle{
     margin: 0;
+    font-size: 0.9em;
+    margin-top: 0px;
 }

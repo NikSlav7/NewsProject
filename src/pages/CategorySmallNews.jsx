@@ -1,14 +1,16 @@
 import '../css/CategorySmallNews.css'
-function CategorySmallNews(){
+function CategorySmallNews(props){
 
     return (
         <div className='small-news-container'>
-            <div className='small-news-picture-container'></div>
-            <div>
-                <p className='small-news-title'>Title</p>
+            <div className='small-news-picture-container'>
+                <img className='small-news-picture' src={props.data['picture']}></img>
             </div>
             <div>
-                <p className='small-news-subtitle'>Subtitle</p>
+                <p className='small-news-title'>{props.data['title']}</p>
+            </div>
+            <div>
+                <p className='small-news-subtitle'>{props.data['subtitle']}</p>
             </div>
         </div>
     )
