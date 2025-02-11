@@ -12,6 +12,10 @@
 .small-news-picture{
     width: 100%;
     height: 100%;
+    transition: 0.2s;
+}
+.small-news-picture:hover{
+    transform: scale(1.02);
 }
 .small-news-title{
     margin: 0;
@@ -24,4 +28,7 @@
     margin: 0;
     font-size: 0.9em;
     margin-top: 0px;
+}
+.small-news-container:hover{
+    cursor: pointer;
 }
