@@ -1,0 +1,45 @@
+.admin-container{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    
+}
+.admin-console{
+    height: 70vh;
+    width:  80vw;
+    left: 10vw;
+    top: 15vh;
+    position: fixed;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.admin-box-1{
+flex: 1; 
+background-color: blue;
+display: flex;
+flex-direction: row;
+}
+.admin-box-2{
+    flex: 2;
+}
+.admin-box-3{
+    flex: 1;
+}
+.admin-box-4{
+    flex: 1;
+    background-color: aqua;
+}
+.admin-box-text{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.admin-box-text2{
+    width: 100%;
+    height: 70%;
+    box-sizing: border-box;
+}

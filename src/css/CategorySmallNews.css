@@ -1,0 +1,34 @@
+.small-news-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.small-news-picture-container{
+    height: 90%; 
+    background-color:  rgb(218, 218, 218);
+    border-radius: 4px;  
+}
+.small-news-picture{
+    width: 100%;
+    height: 100%;
+    transition: 0.2s;
+}
+.small-news-picture:hover{
+    transform: scale(1.02);
+}
+.small-news-title{
+    margin: 0;
+    font-size: 1.15em;
+    margin-top: 8px;
+    font-weight: 600
+}
+
+.small-news-subtitle{
+    margin: 0;
+    font-size: 0.9em;
+    margin-top: 0px;
+}
+.small-news-container:hover{
+    cursor: pointer;
+}

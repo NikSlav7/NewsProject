@@ -1,0 +1,7 @@
+.main-page-container{
+    height: 280vh;
+    padding: 120px;
+}
+*{
+    scroll-behavior: smooth;
+}
