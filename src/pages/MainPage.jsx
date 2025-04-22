@@ -5,7 +5,10 @@ import Admin from "./Admin";
 import { useState } from "react";
 function MainPage(){
 
-    const [show,setshow] = useState(true)
+
+    const [show, setshow] = useState(false); // let show = true;
+
+
     let object = {};
     const [array, setarray]  = useState({
         "Sports": [
@@ -151,11 +154,14 @@ function MainPage(){
             <Header />
             {show && <Admin show={show} show1={setshow} data={array} data1={setarray}/>}
             <div className="main-page-container">
-                {Object.keys(array).map((e) => <Category data={array[e]} title={e}/>)}
+                {Object.keys(array).map((e) => <Category show1={setshow} data={array[e]} title={e}/>)}
             </div>
         </div>
         
     )
+    // && - и
+    // || - или
+    
 }
 export default MainPage;
 

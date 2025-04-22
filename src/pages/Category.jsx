@@ -6,7 +6,7 @@ function Category(props){
         <div className='category-container' id={props.title}>
             <div className='category-title-container'>
                 <p className='category-title'>{props.title}</p>
-                <button className='button-plus'>+</button>
+                <button className='button-plus' onClick={()=>props.show1(true)}>+</button>
             </div>
             <div className='category'>
                 <div className='container-left'>
